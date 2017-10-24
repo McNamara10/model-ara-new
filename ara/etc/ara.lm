@@ -1,0 +1,60 @@
+Language model created by QuickLM on Mon Oct 23 14:12:53 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=13
+ngram 3=12
+
+\1-grams:
+-1.4472 </s> -0.3010
+-1.4472 <s> -0.2852
+-1.4472 A -0.2852
+-1.1461 E -0.2518
+-1.4472 ELETTRONICA -0.2688
+-1.4472 I -0.2852
+-1.4472 K -0.2852
+-1.4472 L -0.2688
+-1.4472 N -0.2852
+-1.4472 OO -0.2852
+-1.4472 R -0.2852
+-1.1461 T -0.2518
+
+\2-grams:
+-0.3010 <s> ELETTRONICA 0.0000
+-0.3010 A </s> -0.3010
+-0.6021 E L 0.0000
+-0.6021 E T -0.1761
+-0.3010 ELETTRONICA E -0.1761
+-0.3010 I K 0.0000
+-0.3010 K A 0.0000
+-0.3010 L E -0.1761
+-0.3010 N I 0.0000
+-0.3010 OO N 0.0000
+-0.3010 R OO 0.0000
+-0.6021 T R 0.0000
+-0.6021 T T -0.1761
+
+\3-grams:
+-0.3010 <s> ELETTRONICA E
+-0.3010 E L E
+-0.3010 E T T
+-0.3010 ELETTRONICA E L
+-0.3010 I K A
+-0.3010 K A </s>
+-0.3010 L E T
+-0.3010 N I K
+-0.3010 OO N I
+-0.3010 R OO N
+-0.3010 T R OO
+-0.3010 T T R
+
+\end\

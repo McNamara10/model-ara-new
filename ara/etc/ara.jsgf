@@ -1,0 +1,6 @@
+#JSGF V1.0 ISO08859-5
+/**
+ * JSGF grammar for Hello World Example
+*/
+grammar ara;
+public <ara> = (elettronica);
